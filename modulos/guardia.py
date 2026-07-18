@@ -69,11 +69,19 @@ def login(ventana):
         width=30
     ).pack(pady=(0, 10))
 
-    tk.Label(ventana, text="Usuario", bg="gray13", fg="white", font=("Times New Roman", 12)).pack(pady=(5, 2))
+    tk.Label(ventana, 
+             text="Usuario", 
+             bg="gray13", 
+             fg="white", 
+             font=("Times New Roman", 12)).pack(pady=(5, 2))
     ingreso_usuario = tk.Entry(ventana, font=("Times New Roman", 12), width=25)
     ingreso_usuario.pack()
 
-    tk.Label(ventana, text="Contraseña", bg="gray13", fg="white", font=("Times New Roman", 12)).pack(pady=(5, 2))
+    tk.Label(ventana, 
+             text="Contraseña", 
+             bg="gray13", 
+             fg="white", 
+             font=("Times New Roman", 12)).pack(pady=(5, 2))
     ingreso_contrasena = tk.Entry(ventana, font=("Times New Roman", 12), width=25, show="*")
     ingreso_contrasena.pack()
     
@@ -116,13 +124,24 @@ def registrar_guardia(ventana):
 
     titulo_parqueadero_uleam(ventana)
 
-    tk.Label(ventana, text="Registrar Guardia", fg="black", font=("Times New Roman", 18)).pack(pady=(0, 10))
+    tk.Label(ventana, 
+             text="Registrar Guardia", 
+             fg="black", 
+             font=("Times New Roman", 18)).pack(pady=(0, 10))
 
-    tk.Label(ventana, text="Usuario", bg="gray13", fg="white", font=("Times New Roman", 12)).pack(pady=(5, 2))
+    tk.Label(ventana, 
+             text="Usuario", 
+             bg="gray13", 
+             fg="white", 
+             font=("Times New Roman", 12)).pack(pady=(5, 2))
     ingreso_usuario = tk.Entry(ventana, font=("Times New Roman", 12), width=25)
     ingreso_usuario.pack()
 
-    tk.Label(ventana, text="Contraseña", bg="gray13", fg="white", font=("Times New Roman", 12)).pack(pady=(5, 2))
+    tk.Label(ventana, 
+             text="Contraseña", 
+             bg="gray13", 
+             fg="white", 
+             font=("Times New Roman", 12)).pack(pady=(5, 2))
     ingreso_contrasena = tk.Entry(ventana, font=("Times New Roman", 12), width=25, show="*")
     ingreso_contrasena.pack()
     
